@@ -1,0 +1,40 @@
+/* NAVIGATION */
+#mainNav {
+	background-color: #151b71 !important;
+	height: 66px;
+	padding: 0;
+
+	.container {
+		max-width: unset;
+	}
+
+	.navbar-nav .nav-item a,
+	.navbar-brand {
+		cursor: pointer;
+	}
+
+	.navbar-nav .nav-item .dropdown-menu,
+	.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+		background: #151b71;
+		color: #fff !important;
+	}
+}
+
+#footer {
+	background-color: #151b71;
+
+	&.bg-light .text-white {
+		color: #ccc !important;
+	}
+}
+
+@media (max-width: 992px) {
+	#mainNav {
+		padding: 0.5rem 1rem;
+
+		#navbarResponsive {
+			background-color: #151b71 !important;
+			padding: 15px;
+		}
+	}
+}
