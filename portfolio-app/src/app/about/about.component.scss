@@ -1,12 +1,9 @@
-.coming-soon {
-  text-align: center;
-  margin-top: 50px;
+@import 'variables';
 
-  h1 {
-    margin: 0;
-  }
-  .icon {
-    width: 50px;
-    color: #7510f7;
-  }
+.wrapper-box {
+	.container {
+		.about-me {
+			text-align: left;
+		}
+	}
 }
