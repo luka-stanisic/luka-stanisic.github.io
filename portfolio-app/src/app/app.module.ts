@@ -9,10 +9,11 @@ import { FooterComponent } from './footer/footer.component';
 import { IconsModule } from './icons/icons.module';
 import { SkillsComponent } from './skills/skills.component';
 import { MaintenanceComponent } from './maintenance/maintenance.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
 	declarations: [AppComponent, AboutComponent, ProjectsComponent, HeaderComponent, FooterComponent, SkillsComponent, MaintenanceComponent],
-	imports: [BrowserModule, IconsModule],
+	imports: [BrowserModule, IconsModule, FontAwesomeModule],
 	providers: [],
 	bootstrap: [AppComponent],
 })
